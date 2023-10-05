@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design House</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="designHouse.css">
+    <link rel="shortcut icon" href="./immagini/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <img src="./immagini/favicon.png" alt="favicon" class="favicon">
+            <h2 class="subtitle">Build Your Dream House</h2>
+        </div>
+
+       <a href="#form"> <button class="callToAction">Get Started<i class="fa-solid fa-house"></i></button></a>
+    </header>
+
+    <section class="main">
+        <div class="firstItem">
+            <!--CARD-->
+            <div class="card">
+                <i class="fa-regular fa-chess-queen"></i>
+                <h5 class="contentTitle">Handmade in Italy</h5>
+                <p class="contentP">Only the best Italian workmanship, with top quality material</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-handshake-simple"></i>
+                <h5 class="contentTitle">Tailor-made for you</h5>
+                <p class="contentP">Free advice from professionals in the sector, directly at your home</p>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-sack-dollar"></i>
+                <h5 class="contentTitle">Deferred payments</h5>
+                <p class="contentP">Request a quote and decide to pay even in convenient installments up to 36 months
+                </p>
+            </div>
+        </div>
+
+        <img src="./immagini/firstItemImg.jpg" alt="soggiorno" class="itemImg">
+
+        <div class="secondItem">
+
+            <div class="box uno">
+                <h4 class="contentTitle">Eco-sustainable projects in compliance with the most modern technologies</h4>
+                <i class="fa-solid fa-leaf"></i>
+                <p class="contentP">Our professionals and our company has a green heart! Feel part of a new world!</p>
+                <button class="smallCall">Ask for information</button>
+            </div>
+
+            <div class="box due">
+                <img src="./immagini/greenhouse.jpg" alt="immagine">
+            </div>
+
+            <div class="box tre">
+                <img src="./immagini/lampada.jpg" alt="lampada">
+            </div>
+
+            <div class="box quattro">
+                <h4 class="contentTitle" style="padding-top: 60px;">Long service life</h4>
+                <i class="fa-solid fa-heart-pulse"></i>
+                <p class="contentP" style="padding: 0 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempore natus omnis facere
+                    error tenetur porro modi quidem asperiores sunt, obcaecati temporibus voluptatem eius earum. Unde
+                    incidunt similique cumque dolore voluptas.
+                </p>
+                <a href="#form"><button class="smallCall">Ask for information</button> 
+            </div>
+
+
+            <div class="box cinque">
+
+                <a href="#form"> <button class="callToAction" id="small">Contact us<i class="fa-solid fa-house"></i></button></a> 
+            </div>
+        </div>
+
+        <!--FORM-->
+        <div class="form" id="form">
+           <h1>Request a free quote</h1>
+
+           <label for="name">Name</label>
+           <input type="text" placeholder="Your name">
+
+           
+           <label for="surname">Surname</label>
+           <input type="text" placeholder="Your surname">
+
+           
+           <label for="email">Email</label>
+           <input type="text" placeholder="Your Email">
+
+           
+           <label for="tel">Phone</label>
+           <input type="text" placeholder="Your phone number">
+
+           <button class="smallCall" style="width:200px ;">Send</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footerContainer">
+        <h2>Design House</h2>
+        <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+      </div>
+      
+    </footer>
+</body>
+
+</html>
